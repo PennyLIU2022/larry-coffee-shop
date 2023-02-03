@@ -36,6 +36,10 @@
     npm start
     ```
 
+## Deployed App in Heroku
+[View deployed HEROKU app here!](https://larry-coffee.herokuapp.com/)
+ 
+
 ## Usage
 Browse the site to look at best sellers or naviagte over to the coffee section and place an order through inquiry for whatever blend you are interested in.
 
