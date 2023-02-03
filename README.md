@@ -36,34 +36,34 @@
     npm start
     ```
 
-  ## Usage
-  Browse the site to look at best sellers or naviagte over to the coffee section and place an order through inquiry for whatever blend you are interested in.
+## Usage
+Browse the site to look at best sellers or naviagte over to the coffee section and place an order through inquiry for whatever blend you are interested in.
 
-  ## How-to-contribute
-  Just navigate over to the questions section and contact us to contribute.
+## How-to-contribute
+Just navigate over to the questions section and contact us to contribute.
 
-  ## Testing
-  N/A
+## Testing
+N/A
 
-  ## License
-  MIT
-  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+## License
+MIT
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-  https://opensource.org/licenses/MIT
+https://opensource.org/licenses/MIT
 
-  This project is licensed under MIT.
+This project is licensed under MIT.
 
-  ## Questions
-  https://github.com/kanhairaval
+## Questions
+https://github.com/kanhairaval
 
-  kanhairaval@gmail.com
+kanhairaval@gmail.com
   
-  https://github.com/MarioT573
+https://github.com/MarioT573
   
-  mariotrig573@gmail.com
+mariotrig573@gmail.com
   
-  https://github.com/PennyLIU2022
+https://github.com/PennyLIU2022
 
-  pennyliu806@gmail.com
+pennyliu806@gmail.com
   
-  ## Demo
+## Demo
