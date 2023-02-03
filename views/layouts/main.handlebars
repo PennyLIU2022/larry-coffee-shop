@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/stylesheets/style.css">
+  <title>Latte Larry's Coffee</title>
+</head>
+
+<body>
+  <div id="bg">
+    <div class="px-6 pt-6 lg:px-8">
+      <nav class="flex items-center justify-between" aria-label="Global">
+        <div class="flex lg:flex-1">
+          <a href="/" class="-m-1.5 p-1.5">
+            <img id="logo-image" class="h-20" src="./images/logo latte larry.png" alt="">
+            <span class="com-title">Latte Larry's Coffee</span>
+          </a>
+        </div>
+        <div class="flex lg:hidden">
+          <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+            <span class="sr-only">Open main menu</span>
+            <!-- Heroicon name: outline/bars-3 -->
+            <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+          </button>
+        </div>
+
+        <div class="hidden lg:flex lg:gap-x-12">
+          <a href="/" class="text-4xl font-semibold leading-6 text-white-900">Home</a>
+          <a href="/coffee" class="text-4xl font-semibold leading-6 text-white-900">Coffee</a>
+          <a href="/bakery" class="text-4xl font-semibold leading-6 text-white-900">Food</a>
+          <a href="/#about-us" class="text-4xl font-semibold leading-6 text-white-900">About Us</a>
+          <a href="/profile" class="text-4xl font-semibold leading-6 text-white-900">Inquiry</a>
+        </div>
+
+        {{#if logged_in}}
+        <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+        <button class="no-button text-3xl font-semibold leading-6 text-white-900" id="logout">Log Out</button>
+        </div>
+        {{else}}
+        <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+          <a href="/login" class="text-3xl font-semibold leading-6 text-white-900">Log in <span aria-hidden="true">&rarr;</span></a>
+        </div>
+        {{/if}}
+      </nav>
+  </div>
+  <main>
+    {{{ body }}}
+  </main>
+  <footer>
+  </footer>
+  </div>
+</body>
+
+{{#if logged_in}}
+  <script src="/js/logout.js"></script>
+{{/if}}
+
+</html>
